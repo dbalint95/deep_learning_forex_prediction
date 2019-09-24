@@ -9,6 +9,8 @@ import pandas as pd
 from matplotlib import pyplot as plt
 from PIL import Image
 from scipy import stats
+from scipy import signal
+from scipy.io import wavfile
 
 
 def first_and_second_sub_task():
@@ -68,9 +70,20 @@ def third_subtask():
     plt.show()
 
 
+def fourth_subtask():
+    sample_rate, samples = wavfile.read('audio_1.wav')
+    frequencies, times, spectrogram = signal.spectrogram(samples, sample_rate)
+
+    plt.pcolormesh(times, frequencies, np.log(spectrogram))
+    plt.ylabel('Frequency [Hz]')
+    plt.xlabel('Time [sec]')
+    plt.show()
+
+
 def main():
     first_and_second_sub_task()
     third_subtask()
+    fourth_subtask()
 
 
 if __name__ == "__main__":
