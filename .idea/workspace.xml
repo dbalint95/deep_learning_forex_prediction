@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b1b0908-3dfd-4abb-9a67-7d9e554552c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eur_to_huf_exchange_rate_predictor/data_preprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eur_to_huf_exchange_rate_predictor/predictor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eur_to_huf_exchange_rate_predictor/datasets/eur_huf_exch_rate/alphavantage/fx_daily_EUR_HUF.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,21 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eur_to_huf_exchange_rate_predictor/predictor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eur_to_huf_exchange_rate_predictor/data_preprocessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="323">
+                <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -44,6 +38,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>av-daily</find>
+      <find>gro</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -56,6 +51,7 @@
         <option value="$PROJECT_DIR$/small_home_work_1/run.py" />
         <option value="$PROJECT_DIR$/eur_to_huf_exchange_rate_predictor/predictor.py" />
         <option value="$PROJECT_DIR$/eur_to_huf_exchange_rate_predictor/data_preprocessing.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -82,6 +78,24 @@
               <item name="deep_learning_university_course" type="462c0819:PsiDirectoryNode" />
               <item name="eur_to_huf_exchange_rate_predictor" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="deep_learning_university_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_university_course" type="462c0819:PsiDirectoryNode" />
+              <item name="eur_to_huf_exchange_rate_predictor" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_learning_university_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_university_course" type="462c0819:PsiDirectoryNode" />
+              <item name="eur_to_huf_exchange_rate_predictor" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="daily_news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep_learning_university_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep_learning_university_course" type="462c0819:PsiDirectoryNode" />
+              <item name="small_home_work_1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -106,7 +120,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.predictor">
+  <component name="RunManager" selected="Python.data_preprocessing">
+    <configuration name="data_preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deep_learning_university_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/eur_to_huf_exchange_rate_predictor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eur_to_huf_exchange_rate_predictor/data_preprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="predictor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep_learning_university_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,6 +186,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.data_preprocessing" />
         <item itemvalue="Python.predictor" />
         <item itemvalue="Python.run" />
       </list>
@@ -178,7 +214,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28060672" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23943663" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -214,16 +250,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/small_home_work_1/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
-          <folding>
-            <element signature="e#40#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pandas_datareader/av/forex.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -252,10 +278,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/small_home_work_1/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+          <folding>
+            <element signature="e#40#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eur_to_huf_exchange_rate_predictor/data_preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eur_to_huf_exchange_rate_predictor/datasets/daily_news/Combined_News_DJIA.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
