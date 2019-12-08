@@ -1,17 +1,31 @@
-# deep_learning_university_course
+# Forex prediction based on daily news
 Repository to store all related files to the Deep Learning university course, especially implementation and the source files for the big (semester) homework.
  
- Summary of the chosen task:
+**Summary of the chosen task**:
  
  EUR to HUF exchange rate prediction based on daily news.
  
- Given a fixed number of headlines of different newsletters on a day, what shall be the average EUR/HUF exchange rate the next day?
- - **datasets/eur_huf_exch_rate**: contains EUR/HUF exchange rates from 2010 (source: https://www.histdata.com)
- - **datasets/daily_news**: contains news headlines from Reddit WorldNews Channel (/r/worldnews). They are ranked by reddit users' votes, and only the top 25 headlines are considered for a single date. (Range: 2008-06-08 to 2016-07-01) 
+ Given a number of daily news headlines of different newsletters on a day, what shall be the average EUR to HUF exchange rate the next day?
+
+Structure of the repository:
+
+- **datasets**: contains all the resource files that I have used and that can be used to reproduce my results
+
+  - **datasets/eur_huf_exch_rate**: contains EUR/HUF exchange rates from 2010 (source: https://www.histdata.com)
+     - raw: original downloaded .csv files
+     - processed: the output of the **forex_preprocessing.ipynb** Jupyter notebook. This .csv file can be passed as an **input to the forex_predictor.ipynb** notebook
+  - **datasets/daily_news**: contains daily news headlines from Reddit WorldNews Channel (/r/worldnews). They are ranked by reddit users' votes, and only the top 25 headlines are considered for a single date. (Range: 2008-06-08 to 2016-07-01) 
  (source: https://www.kaggle.com/aaron7sun/stocknews#)
- - **datasets/glove_embedding:** contains pre-trained word vectors (aka word embeddings) provided by the Stanford University (souce: https://nlp.stanford.edu/projects/glove/)
+  - **datasets/glove_embedding:** contains pre-trained word vectors (alias word embeddings) provided by the Stanford University (souce: https://nlp.stanford.edu/projects/glove/)
  
-In the future, I might try to improve the performance of the model by parsing news from additional websites, like:
-- https://inshorts.com/en/read/ 
-- https://dailynewshungary.com/
-- https://www.kormany.hu/en/news?page=1  
+- **forex_preprocessing.ipynb:** serves the purpose of preprocessing the foreign exchange rate data
+    - input: datasets/eur_huf_exch_rate/raw
+    - output: datasets/eur_huf_exch_rate/processed
+    
+- **forex_predictor.ipynb:** contains the implementation of the chosen task:
+    - processing of the daily news data
+    - synchronization between the daily news and forex datasets
+    - data analysis
+    - deep learning model train, validation and test
+
+- **doc:** contains the documentation and the slideshow files
