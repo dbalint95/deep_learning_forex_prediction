@@ -29,3 +29,13 @@ Structure of the repository:
     - deep learning model train, validation and test
 
 - **doc:** contains the documentation and the slideshow files
+
+
+# To reproduce the training and testing of the model:
+- open the **forex_predictor.ipynb**
+- if you want to **provide the input** files from your **google drive**, mount your drive by executing the first code cell, **otherwise ignore it**
+- in the second code cell, set the path to the 3 input files:
+    - **DAILY_NEWS_PATH** (file can be found in the repo: **datasets/daily_news/daily_news.csv**)
+    - **FOREX_PATH** (file can be found in the repo: **datasets/eur_huf_exch_rate/processed/forex_data.csv**)
+    - **GLOVE_PATH** (file can be found in the repo: **datasets/glove_embedding/glove.6B.100d.txt**)
+- execute the notebook
