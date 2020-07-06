@@ -1,9 +1,4 @@
-# Forex prediction based on daily news
-Repository to store all related files to the Deep Learning university course, especially implementation and the source files for the big (semester) homework.
- 
-**Summary of the chosen task**:
- 
- EUR to HUF exchange rate prediction based on daily news.
+**EUR to HUF exchange rate prediction based on daily news. 
  
  Given a number of daily news headlines of different newsletters on a day, what shall be the average EUR to HUF exchange rate the next day?
 
