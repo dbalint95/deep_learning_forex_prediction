@@ -1,4 +1,4 @@
-**EUR to HUF exchange rate prediction based on daily news. 
+**EUR to HUF exchange rate prediction based on daily news.**
  
  Given a number of daily news headlines of different newsletters on a day, what shall be the average EUR to HUF exchange rate the next day?
 
